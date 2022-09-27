@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+</head>
+<body>
+
+    <style>
+        fieldset{
+            border-radius: 35px;
+        }
+        button{
+            background-color: aqua;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 50%;
+
+        }
+        
+    </style>
+    <h1>Quiz App !</h1>
+
+    <div>
+        <fieldset>
+            <p>What is your name</p>
+            <input name="questionOne" id="ques1_ans1" type="radio">SAIM</input><br>
+            <input name="questionOne" id="ques1_ans2" type="radio">SAIM ALI</input><br>
+            <input name="questionOne" id="ques1_ans3" type="radio">SAIM SIDDIQUI</input><br>
+            <input name="questionOne" id="ques1_ans4_right" type="radio">MUHAMMAD SAIM ALI SIDDIQUI</input>
+        </fieldset>
+    </div>
+    <br><br><br>
+
+    <div>
+        <fieldset>
+            <p>What is 2+2</p>
+            <input name="questionTwo" id="ques2_ans1_right" type="radio">4</input><br>
+            <input name="questionTwo" id="ques2_ans2" type="radio">8</input><br>
+            <input name="questionTwo" id="ques2_ans3" type="radio">69</input><br>
+            <input name="questionTwo" id="ques2_ans4" type="radio">12</input>
+        </fieldset>
+    </div>
+
+    <br><br><br>
+
+    <div>
+        <fieldset>
+            <p>What is 2%5</p>
+            <input name="questionThree" id="ques3_ans1" type="radio">5</input><br>
+            <input name="questionThree" id="ques3_ans2" type="radio">4</input><br>
+            <input name="questionThree" id="ques3_ans3" type="radio">3</input><br>
+            <input name="questionThree" id="ques3_ans4_right" type="radio">1</input>
+        </fieldset>
+    </div>
+
+    <br><br><br>
+
+    <div>
+        <fieldset>
+            <p>What is 61+8</p>
+            <input name="questionFour" id="ques4_ans1" type="radio">64</input><br>
+            <input name="questionFour" id="ques4_ans2" type="radio">410</input><br>
+            <input name="questionFour" id="ques4_ans3_right" type="radio">69</input><br>
+            <input name="questionFour" id="ques4_ans4" type="radio">45</input>
+        </fieldset>
+    </div>
+
+    <br><br><br>
+
+    <div>
+        <fieldset>
+            <p>What is 2*3</p>
+            <input name="questionFive" id="ques5_ans1" type="radio">4</input><br>
+            <input name="questionFive" id="ques5_ans2" type="radio">8</input><br>
+            <input name="questionFive" id="ques5_ans3" type="radio">18</input><br>
+            <input name="questionFive" id="ques5_ans4_right" type="radio">6</input>
+        </fieldset>
+    </div>
+
+
+    <button onclick="check()">Result</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
